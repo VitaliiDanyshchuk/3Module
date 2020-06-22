@@ -93,6 +93,7 @@ public class Lunch implements IAcounting {
                 ", cost=" + cost +
                 ", lunchesPerMonth=" + lunchesPerMonth +
                 ", souse=" + souse +
+                ", discountDay=" + discountDay +
                 '}';
     }
 }

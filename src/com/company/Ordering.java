@@ -65,4 +65,14 @@ public class Ordering implements  IAcounting{
             return  getOrderingPerMonth()*getCost()+10;
         }
     }
+
+    @Override
+    public String toString() {
+        return "Ordering{" +
+                "name='" + name + '\'' +
+                ", cost=" + cost +
+                ", orderingPerMonth=" + orderingPerMonth +
+                ", delivery=" + delivery +
+                '}';
+    }
 }
