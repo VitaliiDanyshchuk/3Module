@@ -22,26 +22,10 @@ public class Main {
     public static void main(String[] args) {
 
         Lunch happyMorning = new Lunch("happyMorning",20,20,false, LocalDateTime.of(2020,10,15,16,23));
-        Lunch sunny = new Lunch("sunny",
-                14,
-                10,
-                true,
-                LocalDateTime.of(2020,10,15,16,23));;
-        Lunch vegan = new Lunch("vegan",
-                10,
-                6,
-                true,
-                LocalDateTime.of(2020,10,15,16,23));;
-        Lunch bigLunch = new Lunch("bigLunch",
-                29,
-                50,
-                true,
-                LocalDateTime.of(2020,10,15,16,23));;
-        Lunch extraLunch =  new Lunch("extraLunch",
-                33,
-                29,
-                false,
-                LocalDateTime.of(2020,10,15,16,23));;
+        Lunch sunny = new Lunch("sunny",14, 10,true, LocalDateTime.of(2020,10,15,16,23));;
+        Lunch vegan = new Lunch("vegan",10,6,true, LocalDateTime.of(2020,10,15,16,23));;
+        Lunch bigLunch = new Lunch("bigLunch",29,50,true, LocalDateTime.of(2020,10,15,16,23));;
+        Lunch extraLunch =  new Lunch("extraLunch",33,29,false, LocalDateTime.of(2020,10,15,16,23));;
 
         Ordering childrenOrder = new Ordering("childrenOrder",23,14,false);
         Ordering friendlyOrder = new Ordering("friendlyOrder",30,30,false);
