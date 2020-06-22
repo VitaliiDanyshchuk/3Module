@@ -21,11 +21,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Lunch happyMorning = new Lunch("happyMorning",
-                20,
-                20,
-                false,
-                 LocalDateTime.of(2020,10,15,16,23));
+        Lunch happyMorning = new Lunch("happyMorning",20,20,false, LocalDateTime.of(2020,10,15,16,23));
         Lunch sunny = new Lunch("sunny",
                 14,
                 10,
