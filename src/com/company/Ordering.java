@@ -1,4 +1,5 @@
 package com.company;
+import java.time.LocalDateTime;
 /**
  * Classname: Ordering
  * Date: 22.06.2020
@@ -11,17 +12,28 @@ public class Ordering implements  IAcounting{
     private int cost;             // cost ordering
     private int orderingPerMonth; // number of ordering per month
     private boolean delivery;     // is need delivery?
+    private LocalDateTime discountDay; // date of order
 
     public Ordering() { }
 
     public Ordering(String name,
                     int cost,
                     int orderingPerMonth,
-                    boolean delivery) {
+                    boolean delivery,
+                    LocalDateTime discountDay) {
         this.name = name;
         this.cost = cost;
         this.orderingPerMonth = orderingPerMonth;
         this.delivery = delivery;
+        this.discountDay = discountDay;
+    }
+
+    public LocalDateTime getDiscountDay() {
+        return discountDay;
+    }
+
+    public void setDiscountDay(LocalDateTime discountDay) {
+        this.discountDay = discountDay;
     }
 
     public String getName() {
@@ -73,6 +85,7 @@ public class Ordering implements  IAcounting{
                 ", cost=" + cost +
                 ", orderingPerMonth=" + orderingPerMonth +
                 ", delivery=" + delivery +
+                ", discountDay=" + discountDay +
                 '}';
     }
 }

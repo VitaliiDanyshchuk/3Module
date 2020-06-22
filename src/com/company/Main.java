@@ -21,17 +21,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Lunch happyMorning = new Lunch("happyMorning",20,20,false, LocalDateTime.of(2020,10,15,16,23));
-        Lunch sunny = new Lunch("sunny",14, 10,true, LocalDateTime.of(2020,10,15,16,23));;
-        Lunch vegan = new Lunch("vegan",10,6,true, LocalDateTime.of(2020,10,15,16,23));;
-        Lunch bigLunch = new Lunch("bigLunch",29,50,true, LocalDateTime.of(2020,10,15,16,23));;
-        Lunch extraLunch =  new Lunch("extraLunch",33,29,false, LocalDateTime.of(2020,10,15,16,23));;
+        Lunch happyMorning = new Lunch("happyMorning",20,20,false,LocalDateTime.of(2020,10,15,16,23));
+        Lunch sunny = new Lunch("sunny",14, 10,true,LocalDateTime.of(2020,9,14,12,22));;
+        Lunch vegan = new Lunch("vegan",10,6,true,LocalDateTime.of(2020,1,25,11,13));;
+        Lunch bigLunch = new Lunch("bigLunch",29,50,true,LocalDateTime.of(2020,3,12,11,56));;
+        Lunch extraLunch =  new Lunch("extraLunch",33,29,false,LocalDateTime.of(2020,7,30,9,03));;
 
-        Ordering childrenOrder = new Ordering("childrenOrder",23,14,false);
-        Ordering friendlyOrder = new Ordering("friendlyOrder",30,30,false);
-        Ordering girlsOrder = new Ordering("girlsOrder",45,10,true);
-        Ordering workOrder = new Ordering("workOrder",15,20,true);
-        Ordering familyOrder = new Ordering("familyOrder",40,35,false);
+        Ordering childrenOrder = new Ordering("childrenOrder",23,14,false,LocalDateTime.of(2020,2,21,10,15));
+        Ordering friendlyOrder = new Ordering("friendlyOrder",30,30,false,LocalDateTime.of(2020,11,30,22,45));
+        Ordering girlsOrder = new Ordering("girlsOrder",45,10,true,LocalDateTime.of(2020,9,12,14,1));
+        Ordering workOrder = new Ordering("workOrder",15,20,true,LocalDateTime.of(2020,4,1,16,12));
+        Ordering familyOrder = new Ordering("familyOrder",40,35,false,LocalDateTime.of(2020,10,5,9,02));
 
         List<IAcounting> eat = new ArrayList<>();
         eat.add(happyMorning);

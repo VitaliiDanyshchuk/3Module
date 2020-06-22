@@ -1,0 +1,20 @@
+
+
+  Date: 22.06.2020
+  @author: Vitalii Danyshchuk
+  @version: 1.1
+
+1. Create two appropriate classes and 5 objects of each one.
+2. Calculate the total salary of a month.
+3. Find the highest cost .
+4. Find he lowest cost
+5. The average cost.
+6. What get more money, ordering or lunch?
+
+
+
+OUTPUT
+
+Money by ordering per month: 3392
+Money by lunch per month: 3013
+There are more money for ordering!
